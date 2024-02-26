@@ -1,0 +1,15 @@
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/obj/Debug/net6.0/BankoCheater.csproj.AssemblyReference.cache
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/obj/Debug/net6.0/BankoCheater.GeneratedMSBuildEditorConfig.editorconfig
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/obj/Debug/net6.0/BankoCheater.AssemblyInfoInputs.cache
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/obj/Debug/net6.0/BankoCheater.AssemblyInfo.cs
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/obj/Debug/net6.0/BankoCheater.csproj.CoreCompileInputs.cache
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/bin/Debug/net6.0/BankoCheater
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/bin/Debug/net6.0/BankoCheater.deps.json
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/bin/Debug/net6.0/BankoCheater.runtimeconfig.json
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/bin/Debug/net6.0/BankoCheater.dll
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/bin/Debug/net6.0/BankoCheater.pdb
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/obj/Debug/net6.0/BankoCheater.dll
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/obj/Debug/net6.0/refint/BankoCheater.dll
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/obj/Debug/net6.0/BankoCheater.pdb
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/obj/Debug/net6.0/BankoCheater.genruntimeconfig.cache
+/Users/test/Documents/GitHub/banko-snyd-ansebanse/BankoCheater/obj/Debug/net6.0/ref/BankoCheater.dll
