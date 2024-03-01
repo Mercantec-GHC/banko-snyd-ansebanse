@@ -32,18 +32,18 @@ class Program
         string plade1UniqueID = GetUserInput("Hvad er dit unikke ID for din første plade: ");
         BingoCard plade1 = new BingoCard(plade1UniqueID, new List<List<string>>
         {
-            new List<string> { " ", "  ", "  ", "30", "41", "51", "61", "74", "  " },
-            new List<string> { "8", "17", "  ", "  ", "42", "54", "  ", "  ", "82" },
-            new List<string> { "9", "18", "28", "  ", "  ", "  ", "68", "78", "  " }
+            new List<string> { "30", "41", "51", "61", "74" },
+            new List<string> { "8", "17", "42", "54", "82" },
+            new List<string> { "9", "18", "28", "68", "78" }
         });
 
         //Lave den anden plader, hvor den først sprøger efter et unikt ID – her skal Jeg selv taste anse.
         string plade2UniqueID = GetUserInput("Hvad er dit unikke ID for din anden plade: ");
         BingoCard plade2 = new BingoCard(plade2UniqueID, new List<List<string>>
         {
-            new List<string> { "2", "10", "  ", "31", "41", "51", "  ", "  ", "  " },
-            new List<string> { "6", "  ", "  ", "37", "  ", "53", "64", "  ", "87" },
-            new List<string> { "2", "19", "27", "39", "  ", "  ", "67", "77", "  " }
+            new List<string> { "2", "10", "31", "41", "51" },
+            new List<string> { "6", "37", "53", "64", "87" },
+            new List<string> { "2", "19", "27", "39", "67", "77" }
         });
 
         //I prinippet kan der blive tilføjet så mange plader som jeg vil, der skal bare hardcodes flere plader som passer til de unikke plader som jeg har på hjemmesiden.
@@ -86,7 +86,7 @@ class Program
         return int.TryParse(tal, out parsedNumber) && parsedNumber >= 1 && parsedNumber <= 90;
     }
 
-    //Opdater vores plader med kryser 
+    //Opdater vores plader med kryser, og fortælle os om det trukket tal er på pladen
     static void UpdatePlader(BingoCard plade1, BingoCard plade2, string trukketTal)
     {
         UpdateRække(plade1.Rows);
@@ -106,6 +106,7 @@ class Program
         }
     }
 
+    //Her skal check for bingo og sende besked når det er bingo eller banko
     static void CheckForBingo(BingoCard plade1, BingoCard plade2, ref int fullLinesCount, ref bool fuldPlade, ref bool bingo1Achieved, ref bool bingo2Achieved)
     {
         int fullLinesInPlade1 = CountFullLines(plade1.Rows);
@@ -140,6 +141,7 @@ class Program
         }
     }
 
+    //Fortæller programmet hvornår du har en række
     static int CountFullLines(List<List<string>> plader)
     {
         int count = 0;
@@ -153,6 +155,7 @@ class Program
         return count;
     }
 
+    //Skriv pladerne ud altså display pladerne
     static void DisplayPlader(BingoCard plade1, BingoCard plade2)
     {
         DisplayPlade(plade1.UniqueID, plade1.Rows);
